@@ -1,0 +1,182 @@
+/* Estilização Principal */
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #7bb6d4;
+  --color-secondary: #1e3847;
+  --color-background: #70a7c3;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-text: #1a3646;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  /* background: -webkit-linear-gradient(90deg, #1e3847, #7bb6d4) repeat-x; */
+  background-color: var(--color-background);
+  margin: 0 auto;
+}
+
+#cabecalho {
+  background-color: var(--color-primary);
+  width: 100%;
+  height: 100px;
+}
+
+#conteudoCabecalho {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: var(--color-secondary);
+  text-align: center;
+  padding: 4px;
+  color: var(--color-primary);
+  clear: both;
+}
+
+/* Cabeçalho */
+
+#titulo {
+  color: var(--color-text);
+  font-size: 32px;
+  padding: 15px 2px;
+  float: left;
+  margin-top: 15px;
+}
+
+#cabecalho img {
+  float: left;
+  width: 60px;
+  padding: 20px 5px 5px 0;
+}
+
+/* Menu Navegação */
+
+#list {
+  float: right;
+  list-style-type: none;
+}
+
+.listItens {
+  float: left;
+  padding: 15px 10px;
+  float: left;
+  margin-top: 25px;
+}
+
+.itemContato {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/* Links */
+
+a:link,
+a:active,
+a:visited {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-black);
+}
+
+#list a:hover {
+  font-size: 18px;
+}
+
+/* Conteúdo Principal */
+
+#principal {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Seções */
+
+#frontend {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 10px;
+  float: left;
+}
+
+.card {
+  width: 24%;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 1.2%;
+  box-shadow: 3px 3px 3px 2px var(--color-secondary);
+  border-radius: 20px;
+  height: 350px;
+}
+
+.cardFirst {
+  margin-left: 0;
+}
+
+.cardLast {
+  margin-right: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+h3 a {
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+}
+
+.card img {
+  width: 50%;
+  height: 50%;
+}
+
+.card p {
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+  color: var(--color-black);
+  font-size: 16px;
+  padding: 2px;
+}
+
+#javascript {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 10px;
+  float: left;
+}
+
+#java {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 10px;
+  float: left;
+}
+
+#postgresql {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 50px;
+  float: left;
+}
